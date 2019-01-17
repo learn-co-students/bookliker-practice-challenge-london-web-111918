@@ -43,7 +43,6 @@ const booksUL = document.getElementById('list')
       const likeBtn = document.createElement('button')
       likeBtn.innerHTML = "Like"
       booksUL.innerHTML = ""
-      booksUL.innerHTML =
 
       `<h2>${book.title}</h2>
       <img src="${book.img_url}">
@@ -68,7 +67,6 @@ const booksUL = document.getElementById('list')
     }
 
     function updateBookLikes(book) {
-      debugger
       const user = {id: 1, username: 'pouros'}
       if (book.users.filter(user => user.id === user.id)) {
         book.users.push(user)
