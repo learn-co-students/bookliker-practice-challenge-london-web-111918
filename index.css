@@ -1,4 +1,14 @@
 body {
+	background-color: #cdebf9;
+	font-family: 'PT Sans', sans-serif;
 	display: grid;
 	grid-template-columns: 2fr 8fr
+}
+
+li {
+	list-style: none;
+}
+
+.book-titles {
+	font-weight: bold;
 }
